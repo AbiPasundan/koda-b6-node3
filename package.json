@@ -1,0 +1,14 @@
+{
+  "name": "node3",
+  "version": "1.0.0",
+  "description": "no description",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Hehah?",
+  "license": "ISC"
+}
