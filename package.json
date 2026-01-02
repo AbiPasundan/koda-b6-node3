@@ -6,9 +6,19 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "test": "npx eslint --global describe --global it tests/",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "lint-rule": "npx eslint --print-config index.js",
+    "lint-debug": "npx eslint --debug index.js "
   },
   "keywords": [],
   "author": "Hehah?",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0"
+  }
 }
